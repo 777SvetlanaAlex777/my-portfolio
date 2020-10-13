@@ -88,6 +88,13 @@ body {
   display: none !important;
 }
 
+.front-page,
+.calculator,
+.personal-projects,
+.container {
+  overflow-x: hidden;
+}
+
 .accent-btn {
   background: var(--c-accent);
   font-weight: bold;
